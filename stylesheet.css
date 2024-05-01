@@ -1,0 +1,63 @@
+input[type=text], 
+input[type=email], 
+input[type=tel], 
+textarea, 
+select {
+    width: 100%;
+    display: block;
+    border: 1px solid #1ada35;
+    background: #fff;
+    height: 50px;
+    padding: 0 20px;
+    line-height: normal;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+}
+
+input[type=text]:hover, 
+input[type=email]:hover, 
+input[type=tel]:hover, 
+textarea:hover, 
+select:hover {
+    border-color: #fff000;
+}
+
+input[type=text]:focus, 
+input[type=email]:focus, 
+input[type=tel]:focus, 
+textarea:focus, 
+select:focus {
+    border-color: #00dbff;
+}
+
+textarea {
+	padding: 20px;
+	min-height: 90px;
+}
+
+.submitBtn {
+  padding: 7px 10px;
+  color: white;
+  background-color: rgba(35, 46, 88, 0.8);
+  font-family: "Cinzel";
+  font-size: 10px;
+  letter-spacing: 2px;
+  transition: 0.5s;
+}
+.submitBtn:hover {
+  background-color: rgba(35, 46, 88, 0.3);
+}
+
+.btn {
+  padding: 5px 7px;
+  color: white;
+  border-radius: 2px;
+  background-color: rgba(35, 46, 88, 0);
+  font-family: "Cinzel";
+  font-size: 9px;
+  letter-spacing: 2px;
+  transition: 0.5s;
+}
+.btn:hover {
+  background-color: rgba(35, 46, 88, 0.8);
+}
